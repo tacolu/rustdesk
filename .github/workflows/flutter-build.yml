@@ -22,7 +22,7 @@ env:
   # host + clave PÚBLICA del hbbs (no son secretos: la .pub se distribuye a los clientes por diseño).
   # Sin esto el MSI sale "en blanco" y hay que configurar Ajustes→Red a mano en cada instalación.
   RENDEZVOUS_SERVER: "rustdesk.tacholil.app"
-  RS_PUB_KEY: "pC9Sl4uiWSSA5qL2kELeOcqhkpjPd4zBlYtMtYKMwl0="
+  RS_PUB_KEY: "8afywRK955l68sdd3ORCSLxTe7TqEakWaFc2gNhKPWA="
   SCITER_RUST_VERSION: "1.75" # https://github.com/rustdesk/rustdesk/discussions/7503, also 1.78 has ABI change which causes our sciter version not working, https://blog.rust-lang.org/2024/03/30/i128-layout-update.html
   RUST_VERSION: "1.75" # sciter failed on m1 with 1.78 because of https://blog.rust-lang.org/2024/03/30/i128-layout-update.html
   MAC_RUST_VERSION: "1.81" # 1.81 is requred for macos, because of https://github.com/yury/cidre requires 1.81
